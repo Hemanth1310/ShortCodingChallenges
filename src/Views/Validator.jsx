@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import validator from 'validator'
 import './Assets/Validator.css'
 const Validator = () => {
     const [checkerStatus,setCheckerStatus] = useState()

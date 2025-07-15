@@ -34,7 +34,7 @@ const RandomColorBox = () => {
         <h1>RandomColorBox</h1>
         <div className='box-grid-container'>
             {colors.map((color,index)=>(
-                <div style={{backgroundColor:`${color}`}} key={index} onClick={()=>console.log(color)} className='rcbox'></div>
+                <div style={{backgroundColor:`${color}`}} key={index} onClick={()=>navigator.clipboard.writeText(color)} className='rcbox'></div>
             ))}    
         </div>
         <button onClick={generatePallet}>Change Pallet</button>    
