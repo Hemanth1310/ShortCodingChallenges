@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from './Views/Login';
+import Home from './Views/Home';
+import Form from './Views/Form';
+import RandomColorBox from './Views/RandomColorBox';
+import Validator from './Views/Validator';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Login/>}/>
+        <Route path='/home/:username/:password' element={<Home/>}/>
+        <Route path='/form' element={<Form/>}/>
+        <Route path="/random-color-generator" element={<RandomColorBox/>}/>
+        <Route path='/validator' element={<Validator/>}/>
+      </Routes>
+     </BrowserRouter>
     </div>
   );
 }
