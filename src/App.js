@@ -6,6 +6,7 @@ import Home from './Views/Home';
 import Form from './Views/Form';
 import RandomColorBox from './Views/RandomColorBox';
 import Validator from './Views/Validator';
+import Quiz from './Collection/Quiz/Quiz';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/form' element={<Form/>}/>
         <Route path="/random-color-generator" element={<RandomColorBox/>}/>
         <Route path='/validator' element={<Validator/>}/>
+        <Route path="/quiz" element={<Quiz/>}/>
       </Routes>
      </BrowserRouter>
     </div>

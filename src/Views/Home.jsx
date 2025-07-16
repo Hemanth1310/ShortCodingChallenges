@@ -27,6 +27,10 @@ const Home = () => {
           <h2>Validator</h2>
           <button onClick={()=>handleNavigate("validator")}>Validator</button>
         </div>
+        <div className='project-item'>
+          <h2>Quiz</h2>
+          <button onClick={()=>handleNavigate("quiz")}>Quiz</button>
+        </div>
 
       </div>
 
