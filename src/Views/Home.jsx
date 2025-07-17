@@ -31,6 +31,10 @@ const Home = () => {
           <h2>Quiz</h2>
           <button onClick={()=>handleNavigate("quiz")}>Quiz</button>
         </div>
+        <div className='project-item'>
+          <h2>TextConverter</h2>
+          <button onClick={()=>handleNavigate("text-converter")}>Text Converter</button>
+        </div>
 
       </div>
 

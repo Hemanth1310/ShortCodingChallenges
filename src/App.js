@@ -7,6 +7,7 @@ import Form from './Views/Form';
 import RandomColorBox from './Views/RandomColorBox';
 import Validator from './Views/Validator';
 import Quiz from './Collection/Quiz/Quiz';
+import TextConverter from './Collection/TextConverter/TextConverter';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/random-color-generator" element={<RandomColorBox/>}/>
         <Route path='/validator' element={<Validator/>}/>
         <Route path="/quiz" element={<Quiz/>}/>
+        <Route path ='/text-converter' element={<TextConverter/>}/>
       </Routes>
      </BrowserRouter>
     </div>
