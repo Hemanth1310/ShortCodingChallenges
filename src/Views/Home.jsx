@@ -35,7 +35,22 @@ const Home = () => {
           <h2>TextConverter</h2>
           <button onClick={()=>handleNavigate("text-converter")}>Text Converter</button>
         </div>
-
+        <div className='project-item'>
+          <h2>JokeGenerator</h2>
+          <button onClick={()=>handleNavigate("JokeGenerator")}>JokeGenerator</button>
+        </div>
+        <div className='project-item'>
+          <h2>Dice</h2>
+          <button onClick={()=>handleNavigate("dice")}>Dice</button>
+        </div>
+        <div className='project-item'>
+          <h2>Rock,Paper and Sissor game</h2>
+          <button onClick={()=>handleNavigate("rps")}>Rock,Paper and Sissor game</button>
+        </div>
+        <div className='project-item'>
+          <h2>Hangman game</h2>
+          <button onClick={()=>handleNavigate("hangman")}>Play Hangman</button>
+        </div>
       </div>
 
 
