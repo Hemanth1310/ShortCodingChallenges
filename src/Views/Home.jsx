@@ -51,6 +51,27 @@ const Home = () => {
           <h2>Hangman game</h2>
           <button onClick={()=>handleNavigate("hangman")}>Play Hangman</button>
         </div>
+        <div className='project-item'>
+          <h2>Cryptocurrency App</h2>
+          <button onClick={()=>handleNavigate("crypto")}>Cryptocurrency App</button>
+        </div>
+        <div className='project-item'>
+          <h2>ExpenseTracker</h2>
+          <button onClick={()=>handleNavigate("ExpenseTracker")}>ExpenseTracker</button>
+        </div>
+         <div className='project-item'>
+          <h2>ToDoApp</h2>
+          <button onClick={()=>handleNavigate("ToDoApp")}>ToDoApp</button>
+        </div>
+          <div className='project-item'>
+          <h2>Accordion</h2>
+          <button onClick={()=>handleNavigate("accordion")}>Accordion</button>
+        </div>
+         <div className='project-item'>
+          <h2>Ratings</h2>
+          <button onClick={()=>handleNavigate("ratings")}>Ratings</button>
+        </div>
+        
       </div>
 
 

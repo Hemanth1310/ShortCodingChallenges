@@ -12,6 +12,11 @@ import JokeGenerator from './Collection/JokeGenerator/JokeGenerator';
 import Dice from './Collection/Dice/Dice';
 import RPS from './Collection/RPSgame/RPS'
 import Hangman from './Collection/Hangman/Hangman'
+import CryptoApp from './Collection/CryptoApp/CryptoApp'
+import ExpenseTracker from './Collection/ExpenseTracker/ExpenseTracker'
+import ToDoApp from './Collection/ToDoApp/ToDoApp';
+import Accordion from './Collection/Accordion/Accordion'
+import Ratings from './Collection/Ratings/Ratings'
 function App() {
   return (
     <div className="App">
@@ -28,6 +33,11 @@ function App() {
         <Route path="/dice" element={<Dice/>}/>
         <Route path="/rps" element={<RPS/>}/>
         <Route path="/hangman" element={<Hangman/>}/>
+        <Route path='/crypto' element={<CryptoApp/>}/>
+        <Route path='/ExpenseTracker' element={<ExpenseTracker/>}/>
+        <Route path='/ToDoApp' element={<ToDoApp/>}/>
+         <Route path='/accordion' element={<Accordion/>}/>
+         <Route path='/ratings' element={<Ratings/>}/>
       </Routes>
      </BrowserRouter>
     </div>

@@ -1,0 +1,101 @@
+.ToDoContainer{
+     height: 100%;
+    width: 50%;
+    margin: 50px 0px 50px 0px;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 50px;
+    /* overflow-x: scroll; */
+    overflow-y: scroll;
+    box-sizing: border-box;
+    &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */   }
+}
+
+.ToDoContainer input{
+    border: 2px solid #1c1c1c;
+    font-size: 18px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 80%;
+}
+
+.todo-task{
+    /* height: 15%; */
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+    gap: 10px;
+    align-items: center;
+}
+
+.todo-add-btn{
+    border: none;
+    font-size: 24px;
+    padding: 10px 30px;
+    color: #fff;
+    background: #1c1c1c;
+    border-radius: 5px;
+}
+
+.todo-task-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.todo-task-list p{
+    font-size: 24px;
+    font-weight: 800;
+}
+.todo-task-list div{
+    display: flex;
+    gap:20px
+}
+
+.todo-task-list button{
+    border: 2px solid #1c1c1c;
+    font-size: 24px;
+    padding: 10px 30px;
+    color: #1c1c1c;
+    background: #fff;
+    border-radius: 5px;
+}
+.todo-task-list button:hover{
+
+    background: #e8e8e8;
+    /* font-size: 18px; */
+
+}
+.todo-task-edit{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.todo-task-edit input{
+
+    border: 2px solid #b7b5b5;
+    font-size: 18px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 60%;
+}
+.todo-task-edit button{
+      border: none;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: #fff;
+    background: #1c1c1c;
+    border-radius: 5px;
+}
+
+.todo-task-edit button:hover{
+     
+    background: #696666;
+
+}
